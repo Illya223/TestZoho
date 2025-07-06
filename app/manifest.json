@@ -1,0 +1,13 @@
+{
+    "name": "MytestWidget",
+    "version": "1.0",
+    "manifest_version": 1,
+    "web": {
+      "url": "index.html"
+    },
+    "location": {
+      "Deals": {
+        "target": ["record-detail"]
+      }
+    }
+  }

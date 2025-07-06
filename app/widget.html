@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <link rel="stylesheet" href="../css/style.css">
+	  <script src="https://live.zwidgets.com/js-sdk/1.2/ZohoEmbededAppSDK.min.js"></script>
+	  <script src="../app/js/custom.js"></script>
+	  <script src="../app/js/jquery-min.js"></script>
+	</head>
+	<body>
+		<div class="blockQuote">
+			<p class="title">NBU Rate</p>
+			<input id="nbuRate" readonly />
+		  </div>
+		  
+		  <div class="blockQuote">
+			<p class="title">Rate in Ugodi (from CRM)</p>
+			<input id="ugodiRate" readonly />
+		  </div>
+		  
+		  <div class="blockQuote">
+			<p class="title">Growth (%)</p>
+			<input id="growth" readonly />
+		  </div>
+		  
+		  <button id="recordLastYearBtn" style="display:none;">
+			Record rate last year
+		  </button>
+		<script type="text/javascript">
+			 window.onload = function () {
+    console.log("Window loaded, initializing...");
+    initializeWidget();
+  };
+		</script>
+	</body>
+</html>
+
